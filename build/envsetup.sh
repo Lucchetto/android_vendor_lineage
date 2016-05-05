@@ -952,8 +952,8 @@ if [ -d $(gettop)/vendor/qcom/sdclang-4.0 ]; then
             ;;
         *)
             export SDCLANG=true
-            export SDCLANG_PATH=$(gettop)/vendor/qcom/sdclang-4.0/bin
-            export SDCLANG_LTO_DEFS=$(gettop)/vendor/lineage/sdclang/sdllvm-lto-defs.mk
+            export SDCLANG_PATH=$(gettop)/prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64/bin
+            export SDCLANG_LTO_DEFS=$(gettop)/vendor/lineage/build/core/sdllvm-lto-defs.mk
             ;;
     esac
 fi
