@@ -85,6 +85,9 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/org.lineageos.android.xml:system/etc/permissions/org.lineageos.android.xml \
     vendor/lineage/config/permissions/privapp-permissions-lineage.xml:system/etc/permissions/privapp-permissions-lineage.xml
 
+# Include Pixel files
+include vendor/lineagepixel/pixel.mk
+
 # Include Lineage audio files
 include vendor/lineage/config/lineage_audio.mk
 
