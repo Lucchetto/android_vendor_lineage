@@ -19,4 +19,4 @@ SDCLANG_PATH := vendor/qcom/sdclang-4.0/bin
 
 SDCLANG_LTO_DEFS := vendor/lineage/sdclang/sdllvm-lto-defs.mk
 
-SDCLANG_COMMON_FLAGS := -O3 -fvectorize -mllvm -polly-run-dce
+SDCLANG_COMMON_FLAGS := -O2 -fvectorize -mllvm -polly-run-dce
