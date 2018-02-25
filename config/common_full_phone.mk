@@ -5,6 +5,9 @@ $(call inherit-product, vendor/lineage/config/common_full.mk)
 PRODUCT_PACKAGES += \
     LatinIME
 
+# This is a phone
+IS_PHONE := true
+
 # Include Lineage LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
 
