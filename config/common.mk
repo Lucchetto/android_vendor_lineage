@@ -142,13 +142,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LineageDarkTheme \
     LineageBlackAccent \
-    LineageBlueAccent \
     LineageBrownAccent \
     LineageGreenAccent \
     LineageOrangeAccent \
     LineagePinkAccent \
     LineagePurpleAccent \
     LineageRedAccent \
+    LineageTealAccent \
     LineageYellowAccent
 
 # Extra tools in Lineage
