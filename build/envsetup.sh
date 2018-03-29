@@ -945,7 +945,7 @@ function fixup_common_out_dir() {
 }
 
 # Enable SD-LLVM if available
-if [ -d $(gettop)/vendor/qcom/sdclang-4.0 ]; then
+if [ -d $(gettop)/prebuilts/snapdragon-llvm/toolchains ]; then
     case `uname -s` in
         Darwin)
             # Darwin is not supported yet
