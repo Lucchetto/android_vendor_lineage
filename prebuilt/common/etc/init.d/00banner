@@ -5,7 +5,7 @@
 L="log -p i -t lineage"
 
 # Run viper sepolicy
-supolicy --live "allow hal_audio_default hal_audio_default_tmpfs file { execute }"
+magiskpolicy --live "allow hal_audio_default hal_audio_default_tmpfs file { execute }"
 
 $L "_ _                                       "
 $L "| (_)_ __   ___  __ _  __ _  ___  ___  ___ "
