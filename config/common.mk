@@ -132,6 +132,7 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     Updater \
     WallpaperPicker \
+    CarbonFibers \
     WeatherProvider
 
 # Exchange support
