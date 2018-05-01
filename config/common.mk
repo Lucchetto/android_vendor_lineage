@@ -125,12 +125,11 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
     LineageSetupWizard \
-    Eleven \
     ExactCalculator \
     Jelly \
     LockClock \
+    Phonograph \
     Trebuchet \
-    Updater \
     WallpaperPicker \
     WeatherProvider
 
